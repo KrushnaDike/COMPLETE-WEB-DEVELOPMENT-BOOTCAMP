@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* element selector */
+        p{
+            /* color: red; */
+            border: 1px solid black;
+        }
+
+        h2{
+            color: rgb(255, 150, 4);
+        }
+
+        #firstpara{
+            color: purple;
+            background-color: bisque;
+        }
+
+        #thirdpara{
+            color: yellow;
+        }
+
+        .bgGreen{
+            background-color: green;
+        }
+
+        /* Grouping selector */
+        span, footer{
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is tutorial about css selectors!</h2>
+    <div>
+        <h3>Types of selectors</h3>
+        <ul>
+            <li>Element selcetor</li>
+            <li>class selcetor</li>
+            <li>Id selcetor</li>
+            <li>Group selcetor</li>
+        </ul>
+    </div>
+
+    <p id="firstpara">This is simple paragraph to demonstrage simple css!</p>
+    <p>This is another paragraph to demonstrage simple css!</p>
+    <p id="thirdpara", class="bgGreen">This is yet another paragraph to demonstrage simple css!</p>
+    
+    <div>
+        <p>This is yet another paragraph under div to demonstrage simple css!</p>
+        <span>This is a span</span>
+    </div>
+
+    <footer>This is a footer</footer>
+
+</body>
+</html>

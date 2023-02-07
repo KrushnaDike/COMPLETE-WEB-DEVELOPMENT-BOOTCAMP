@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display property</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        header {
+            margin: auto;
+            /* border: 2px solid red; */
+            width: 1200px;
+        }
+
+        img {
+            display: block;
+            width: 70px;
+            margin: auto;
+            border-radius: 100%;
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0px;
+        }
+
+        .box {
+            border: 2px solid green;
+            background-color: #ffd9d9;
+            margin: 4px;
+            padding: 23px;
+            display: inline-block;
+            width: 30%;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: auto;
+            width: 1200px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <img src="https://media.licdn.com/dms/image/D5603AQEoVVmc6J5keA/profile-displayphoto-shrink_800_800/0/1675229405965?e=1680739200&v=beta&t=CJs0FxIDxoGJeCGgyWfCARB5qd2bTCIJpCqGlTCcFQg"
+            alt="">
+        <h3>Welcome to Krushna's Blog</h3>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat sint id excepturi iure nulla quisquam
+                voluptatibus vel eligendi laborum accusantium ad numquam autem sunt voluptas, magnam maiores illum
+                cumque, ea quibusdam? Ad, voluptatum similique?</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat sint id excepturi iure nulla quisquam
+                voluptatibus vel eligendi laborum accusantium ad numquam autem sunt voluptas, magnam maiores illum
+                cumque, ea quibusdam? Ad, voluptatum similique?</p>
+        </div>
+        <div class="box">
+            <h4 class="heading">Heading</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat sint id excepturi iure nulla quisquam
+                voluptatibus vel eligendi laborum accusantium ad numquam autem sunt voluptas, magnam maiores illum
+                cumque, ea quibusdam? Ad, voluptatum similique?</p>
+        </div>
+    </div>
+</body>
+
+</html>

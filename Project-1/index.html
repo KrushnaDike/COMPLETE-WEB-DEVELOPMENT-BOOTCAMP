@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krushna's | Gym</title>
+    <style>
+        /* CSS reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url(bg.jpg);
+            color: white;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            border: 2px solid red;
+            width: 7%;
+        }
+
+        .left img {
+            width: 100%;
+        }
+
+        .mid {
+            border: 2px solid green;
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            border: 2px solid yellow;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a:hover {
+            border: 2px solid white;
+            border-radius: 4px;
+        }
+
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 7px 21px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="gym.jpg" alt="gym logo image loading...!">
+            <div>Krushna Dike</div>
+        </div>
+
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            i'm right
+        </div>
+    </header>
+</body>
+
+</html>
